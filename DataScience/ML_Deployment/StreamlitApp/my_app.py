@@ -20,8 +20,8 @@ gearing_type=st.sidebar.radio('Select gear type',('Automatic','Manual','Semi-aut
 car_model=st.sidebar.selectbox("Select model of your car", ('Audi A1', 'Audi A3', 'Opel Astra', 'Opel Corsa', 'Opel Insignia', 'Renault Clio', 'Renault Duster', 'Renault Espace'))
 
 
-heagle_model = pickle.load(open("rf_model_new","rb"))
-heagle_transformer = pickle.load(open('transformer', 'rb'))
+heagle_model = pickle.load(open("rf_model_new.pkl","rb"))
+heagle_transformer = pickle.load(open('transformer.pkl', 'rb'))
 
 
 my_dict = {
