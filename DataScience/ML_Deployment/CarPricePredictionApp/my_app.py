@@ -1,8 +1,7 @@
 import streamlit as st
 import pickle
 import pandas as pd
-from sklearn.compose import make_column_transformer
-from sklearn.preprocessing import OrdinalEncoder
+
 
 
 st.sidebar.title("Car Price Prediction")
